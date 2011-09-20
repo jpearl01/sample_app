@@ -17,7 +17,8 @@ group :test do
   gem 'rspec-rails', '2.6.1'
 #Added by josh to get around the virus checker
   gem 'webrat', :path => "~/local_gems/webrat"
-#  gem 'webrat', '0.7.1'
+  #gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.0.rc8'
 end
 
 # Use unicorn as the web server
